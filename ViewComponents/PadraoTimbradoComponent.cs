@@ -10,8 +10,8 @@ public class PadraoTimbradoComponent : IComponent
     private readonly Action<IContainer> _conteudoPrincipal;
 
     // Dados institucionais fixos da empresa
-    public static readonly string NomeEmpresa = "Cash Pronto Microcrédito E.I.";
-    public static readonly string RodapeTimbrado = "Bairro da Malanga   -   Rua de Capelo N° 43   -   Cell: +258 844997060 / 866255455   -   Maputo - Moçambique";
+    public static readonly string NomeEmpresa = "CredMaster Microcrédito E.I.";
+    public static readonly string RodapeTimbrado = "Bairro Agostinho Neto   -   Av. Moçambique   -   Cell: +258 846979539 / 866979539   -   Maputo - Moçambique";
 
     public PadraoTimbradoComponent(
         string tituloPagina,
@@ -46,7 +46,7 @@ public class PadraoTimbradoComponent : IComponent
                     }
                     else
                     {
-                        c.Item().Text("Cash Pronto").Bold().FontSize(18).FontColor("#079b62");
+                        c.Item().Text("CredMaster").Bold().FontSize(18).FontColor("#079b62");
                         c.Item().Text(NomeEmpresa).FontSize(8f).FontColor("#718096");
                     }
                 });

@@ -5263,11 +5263,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Cred\\Analise\\Cred.csproj",
+      "projectUniqueName": "C:\\CredMaster\\Analise\\Cred.csproj",
       "projectName": "Cred",
-      "projectPath": "C:\\Cred\\Analise\\Cred.csproj",
+      "projectPath": "C:\\CredMaster\\Analise\\Cred.csproj",
       "packagesPath": "C:\\Users\\xjuni\\.nuget\\packages\\",
-      "outputPath": "C:\\Cred\\Analise\\obj\\",
+      "outputPath": "C:\\CredMaster\\Analise\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

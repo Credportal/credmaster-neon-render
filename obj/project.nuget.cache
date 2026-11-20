@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aLsGj+UvHYQ=",
+  "dgSpecHash": "Zhf2H0CbsUw=",
   "success": true,
-  "projectFilePath": "C:\\Cred\\Analise\\Cred.csproj",
+  "projectFilePath": "C:\\CredMaster\\Analise\\Cred.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\xjuni\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\xjuni\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
@@ -98,9 +98,9 @@
       "code": "NU1902",
       "level": "Warning",
       "message": "Package 'MailKit' 4.13.0 has a known moderate severity vulnerability, https://github.com/advisories/GHSA-9j88-vvj5-vhgr",
-      "projectPath": "C:\\Cred\\Analise\\Cred.csproj",
+      "projectPath": "C:\\CredMaster\\Analise\\Cred.csproj",
       "warningLevel": 1,
-      "filePath": "C:\\Cred\\Analise\\Cred.csproj",
+      "filePath": "C:\\CredMaster\\Analise\\Cred.csproj",
       "libraryId": "MailKit",
       "targetGraphs": [
         "net8.0"
