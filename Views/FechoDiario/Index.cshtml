@@ -80,7 +80,7 @@
             @if (!Model.DiaFechado)
             {
                 <!-- Botão de Confirmação e Fecho (Visível APENAS antes de fechar o dia) -->
-                <button type="button" class="btn btn-sm btn-danger fw-bold" data-bs-toggle="modal" data-bs-target="#modalConfirmarFecho">
+                <button type="button" class="btn btn-sm btn-danger fw-bold d-none" data-bs-toggle="modal" data-bs-target="#modalConfirmarFecho">
                     <i class="fa-solid fa-lock me-1"></i> Fechar o dia
                 </button>
                @*  <!-- Botão para verificar operadores antes de fechar -->
@@ -109,7 +109,7 @@
                 </a>
             }
 
-            <a asp-action="Index" asp-controller="DiaControlo" class="btn btn-sm btn-outline-secondary">Voltar</a>
+            <a asp-action="Index" asp-controller="Home" class="btn btn-sm btn-outline-secondary">Voltar</a>
         </div>
     </div>
 
