@@ -330,10 +330,13 @@
 
                     @if (usuario != null && (usuario.Perfil == Analise.Enuns.PerfilEnum.Admin || usuario.Perfil == Analise.Enuns.PerfilEnum.Super || usuario.Perfil == Analise.Enuns.PerfilEnum.Gerente))
                     {
-                        @if (usuario.Perfil == Analise.Enuns.PerfilEnum.Admin || usuario.Perfil == Analise.Enuns.PerfilEnum.Super)
+                        @if (usuario.Perfil == Analise.Enuns.PerfilEnum.Admin)
                         {
                             <a asp-controller="Usuario" asp-action="Criar" class="sg-nav-link @(currentController == "Usuario" ? "active" : "")">
                                 <i class="fa-solid fa-users fa-fw"></i> Usuários
+                            </a>
+                            <a asp-controller="AlterarSenha" asp-action="Index" class="sg-nav-link @(currentController == "AlterarSenha" ? "active" : "")">
+                                <i class="fa-solid fa-key fa-fw"></i> Alterar Senha
                             </a>
                         }
 
@@ -342,9 +345,7 @@
                         </a>
                     }
 
-                    <a asp-controller="AlterarSenha" asp-action="Index" class="sg-nav-link @(currentController == "AlterarSenha" ? "active" : "")">
-                        <i class="fa-solid fa-key fa-fw"></i> Alterar Senha
-                    </a>
+                    
                 }
 
                 <!-- TERMINAR SESSÃO (Disponível em ambos os estados) -->

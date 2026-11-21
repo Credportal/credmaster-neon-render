@@ -69,7 +69,12 @@ namespace Analise.Controllers
             if (usuarioLogado == null) return RedirectToAction("Index", "Login");
 
             var entidades = _entidadeRepositorio.BuscarTodos();
-            var usuarios = _usuarioRepositorio.BuscarTodos();
+
+            // Exclui o primeiro usuário (ex.: menor Id ou primeiro da ordem atual)
+            var usuarios = _usuarioRepositorio.BuscarTodos()
+                .OrderBy(u => u.Id)
+                .Skip(1) // Remove o primeiro registro da sequência
+                .ToList();
 
             var pedidoModel = new PedidoModel
             {
